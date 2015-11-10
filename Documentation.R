@@ -10,7 +10,7 @@ str(handwriting)
 handwriting_train <- handwriting[1:3596, ]
 handwriting_test <- handwriting[3596:4495,]
 
-##training of the model##
+###training of the model###
 nn <- neuralnet(X0.26 ~ X0.0625 + X0.375 + X0.9375 + X0.75 + X0.0625.1 + X0 + X0.1
                 + X0.2 + X0.4375 + X1 + X0.375.1 + X0.375.2 + X0.625 + X0.3 + X0.4
                 + X0.6 + X0.5 + X1.1 + X0.125 + X0.7 + X0.6875 + X0.125.1 + X0.8
